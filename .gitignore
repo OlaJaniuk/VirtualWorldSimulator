@@ -1,0 +1,16 @@
+# Plik wykonywalny projektu
+swiat
+
+# Pliki zapisu gry
+zapis.txt
+
+# Uniwersalne pliki binarne i kompilacji
+*.out
+*.exe
+*.o
+*.a
+
+# Pliki systemowe i foldery środowisk programistycznych
+.DS_Store
+.vscode/
+.idea/
