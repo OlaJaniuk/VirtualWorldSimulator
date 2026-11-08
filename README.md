@@ -1,3 +1,15 @@
+## Kompilacja i uruchomienie
+Projekt można skompilować przy użyciu standardowego kompilatora C++ obsługującego standard C++17. 
+
+Będąc w głównym katalogu projektu, wykonaj polecenie łączące wszystkie pliki źródłowe:
+```bash
+g++ src/*.cpp -o symulator -std=c++17
+```
+
+Następnie uruchom wygenerowany plik:
+```bash
+./symulator
+```
 ## Jak grać (Sterowanie)
 Po uruchomieniu programu zostaniesz poproszony o podanie wymiarów planszy (minimalnie 5x5). Świat wygeneruje się automatycznie, zaludniając siatkę zwierzętami i roślinami. 
 
